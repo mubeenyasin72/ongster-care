@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import './App.css'
+import CombineDesboard from './SuperAdmin/Components/Dashboard/CombineDashboardComponents/combineDashboard';
 class App extends Component {
   render() {
     return (
       <React.Fragment> 
         <div className="app__container">
-            <h1>Ongster Care </h1>
+          <CombineDesboard/>
         </div>
       </React.Fragment>
     )
